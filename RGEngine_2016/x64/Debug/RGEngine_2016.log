@@ -1,0 +1,54 @@
+﻿  TextTest.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  TestScene.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Test2Scene.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  SpriteTest.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  SoundTest.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGTime.cpp
+  RGScene.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rgscene.h(29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  RGInput.cpp
+  RGGraphic.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGGameObject.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rgscene.h(29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGDataStreamXML.cpp
+  RGDataStreamJSON.cpp
+  RGDataStreamFile.cpp
+  RGComponentTextRenderer.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponentSpriteRenderer.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponentCollider.cpp
+  RGComponentCircleCollider.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponentBoxCollider.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponentAudioSource.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponentAudioListener.cpp
+  Generating Code...
+  Compiling...
+  RGComponentAnimationRenderer.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGComponent.cpp
+  RGAssetTextureManager.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGAssetTexture.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGAssetSoundManager.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rgassetsound.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  RGAssetSound.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rgassetsound.h(6): fatal error C1083: Cannot open include file: 'fmod.hpp': No such file or directory
+  RGAssetManager.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  RGApplication.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  ProgramEntry.cpp
+c:\users\nocha\desktop\dynamic future slug-0.0.0\rgengine_2016\rggraphic.h(9): fatal error C1083: Cannot open include file: 'd3dx9.h': No such file or directory
+  Generating Code...

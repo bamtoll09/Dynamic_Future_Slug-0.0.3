@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (RGEngine_2016.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Player.cpp
+  RGEngine_2016.vcxproj -> D:\카카오톡 받은 파일\Dynamic Future Slug-0.0.3\Debug\Dynamic Future Slug.exe
+  RGEngine_2016.vcxproj -> D:\카카오톡 받은 파일\Dynamic Future Slug-0.0.3\Debug\Dynamic Future Slug.pdb (Partial PDB)

@@ -9,6 +9,7 @@ class CGameManager
 {
 public:
 	bool isPause;
+	static float g;
 
 public:
 	CGameManager();

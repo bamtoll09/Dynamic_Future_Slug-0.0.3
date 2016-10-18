@@ -157,6 +157,9 @@
     <Filter Include="Game\GameObjects\Player">
       <UniqueIdentifier>{4ff04bb1-3df7-4409-8766-4acd3dd47b18}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\GameObjects\Grenade">
+      <UniqueIdentifier>{8a779f7f-99d7-4133-9f10-7a8d3a4ae698}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RGApplication.cpp">
@@ -272,6 +275,9 @@
     </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Game\GameObjects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Grenade.cpp">
+      <Filter>Game\GameObjects\Grenade</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -404,10 +410,16 @@
     <ClInclude Include="Player.h">
       <Filter>Game\GameObjects\Player</Filter>
     </ClInclude>
+    <ClInclude Include="Grenade.h">
+      <Filter>Game\GameObjects\Grenade</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="RGMath.inl">
       <Filter>RGEngine\Framework\Math</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="C:\Users\Jaehyun\Desktop\할일(찬우형).txt" />
   </ItemGroup>
 </Project>

@@ -6,6 +6,7 @@
 #include "Text.h"
 #include "Boss1.h"
 #include "Player.h"
+#include "Grenade.h"
 
 using namespace RGEngine;
 
@@ -16,6 +17,7 @@ private:
 	Text *text;
 	CBoss1 *boss;
 	CPlayer *player;
+	CGrenade *grenades[2];
 
 public:
 	TestScene(void);

@@ -5,7 +5,7 @@
 
 bool CPlayer::isLeft{ NULL };
 
-CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f), //attribute
+CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f), life(2), hp(100), ap(100), //attribute
 					 jump(false), jumpPower(600.f), // jump
 					 cameraSpeed(150.f) //camera_view
 {

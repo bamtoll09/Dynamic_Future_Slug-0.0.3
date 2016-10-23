@@ -8,7 +8,7 @@ class CPlayer : public CMover
 private:
 	bool isOnGround;
 	float gravity, weight, speed;
-	int life;
+	int life, hp, ap;
 	// attribute
 
 	CGrenade *grenades[2];

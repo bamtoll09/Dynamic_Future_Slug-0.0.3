@@ -6,7 +6,7 @@
 class CPlayer : public CMover
 {
 private:
-	bool isOnGround;
+	bool isOnGround, isLeft;
 	float gravity, weight, speed;
 	int life, hp, ap;
 	// attribute

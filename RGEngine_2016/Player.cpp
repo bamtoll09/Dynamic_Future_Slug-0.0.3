@@ -5,13 +5,23 @@
 
 bool CPlayer::isLeft{ NULL };
 
-CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f), life(2), hp(100), ap(100), //attribute
+CPlayer::CPlayer() : isOnGround(true), isLeft(false), gravity(0.f), speed(250.f), weight(20.f), life(3), hp(100), ap(100), //attribute
 					 jump(false), jumpPower(600.f), // jump
 					 cameraSpeed(150.f) //camera_view
 {
 	isLeft = false;
 	tag = "Player";
-	InitImage("resources/Player/Player.png");
+
+	InitAnimation("resources/Player/1.png");
+	InitAnimation("resources/Player/2.png");
+	InitAnimation("resources/Player/3.png");
+	InitAnimation("resources/Player/4.png");
+	InitAnimation("resources/Player/5.png");
+	InitAnimation("resources/Player/6.png");
+	InitAnimation("resources/Player/7.png");
+	InitAnimation("resources/Player/8.png");
+
+	animation->speed = 7.5f;
 }
 
 CPlayer::~CPlayer()
@@ -36,7 +46,7 @@ void CPlayer::PrecomposeGrenade(CGrenade *_grenades[])
 
 void CPlayer::ThrowGrenade()
 {
-	float x = position.x + sprite->GetTexture()->GetWidth();
+	float x = position.x + animation->GetTexture(0)->GetWidth();
 
 	if (isLeft)
 		x = position.x;
@@ -44,12 +54,12 @@ void CPlayer::ThrowGrenade()
 	if (!grenades[0]->GetEnabled())
 	{
 		grenades[0]->SetEnabled(true);
-		grenades[0]->position.SetVector(x, position.y + sprite->GetTexture()->GetHeight() / 2.f);
+		grenades[0]->position.SetVector(x, position.y + animation->GetTexture(0)->GetHeight() / 2.f);
 	}
 	else if (!grenades[1]->GetEnabled())
 	{
 		grenades[1]->SetEnabled(true);
-		grenades[1]->position.SetVector(x, position.y + sprite->GetTexture()->GetHeight() / 2.f);
+		grenades[1]->position.SetVector(x, position.y + animation->GetTexture(0)->GetHeight() / 2.f);
 	}
 }
 
@@ -112,12 +122,12 @@ void CPlayer::Move()
 	}
 	// Attack (unimplement)
 
-	if (RGInput->Trigger(DIK_X))
+	/*if (RGInput->Trigger(DIK_X))
 	{
 		ThrowGrenade();
 		//printf("grenade\n");
-	}
-	// Grenade (unimplement)
+	}*/
+	// Grenade (unimplement) [Disable]
 
 
 	if (!jump)
@@ -161,13 +171,13 @@ void CPlayer::Move()
 	}
 	// Jump
 
-	if (RGInput->Trigger(DIK_G))
+	if (RGInput->Trigger(DIK_D))
 	{
 		printf("ultimate\n");
 	}
 	// Ultimate (unimplement)
 
-	if (RGInput->Trigger(DIK_R))
+	if (RGInput->Trigger(DIK_X))
 	{
 		printf("reload\n");
 	}
@@ -185,9 +195,9 @@ void CPlayer::Move()
 
 		// When dropped pos overlaps with ground
 		// Set player's position on the ground
-		if ((position.y + sprite->GetTexture()->GetHeight() + gravity) >= RGGraphic->GetScreenHeight())
+		if ((position.y + animation->GetTexture(0)->GetHeight() + gravity) >= RGGraphic->GetScreenHeight())
 		{
-			position.SetVector(position.x, RGGraphic->GetScreenHeight() - sprite->GetTexture()->GetHeight());
+			position.SetVector(position.x, RGGraphic->GetScreenHeight() - animation->GetTexture(0)->GetHeight());
 
 			isOnGround = true;
 			jump = false;

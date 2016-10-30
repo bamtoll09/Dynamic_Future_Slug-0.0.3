@@ -1,6 +1,6 @@
 #include "Mover.h"
 
-CMover::CMover() { }
+CMover::CMover() { animation = AttachComponent<Components::AnimationRenderer>(); }
 
 CMover::CMover(std::string path)
 {
@@ -24,4 +24,7 @@ void CMover::InitImage(std::string path)
 void CMover::InitAnimation(std::string path)
 {
 	animation->PushBackFrame(path);
+	animation->GetGameObject()->rotationCenter.SetVector(
+		animation->GetTexture(0)->GetWidth() / 2.0f,
+		animation->GetTexture(0)->GetHeight() / 2.0f);
 }

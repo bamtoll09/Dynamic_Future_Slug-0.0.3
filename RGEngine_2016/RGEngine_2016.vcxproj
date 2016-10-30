@@ -219,9 +219,6 @@
   <ItemGroup>
     <None Include="RGMath.inl" />
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="C:\Users\Jaehyun\Desktop\할일(찬우형).txt" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

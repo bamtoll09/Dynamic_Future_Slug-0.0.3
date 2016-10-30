@@ -419,7 +419,4 @@
       <Filter>RGEngine\Framework\Math</Filter>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Text Include="C:\Users\Jaehyun\Desktop\할일(찬우형).txt" />
-  </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ TestScene::TestScene(void)
 	boss->position.SetVector(1000, 500);
 
 	PushBackGameObject(player = new CPlayer());
-	player->position.SetVector(0, RGGraphic->GetScreenHeight() - player->sprite->GetTexture()->GetHeight());
+	player->position.SetVector(0, RGGraphic->GetScreenHeight() - player->animation->GetTexture(0)->GetHeight());
 	printf("%f %f\n", player->position.x, player->position.y);
 
 	for (int i = 0; i < 2; i++)
@@ -33,7 +33,11 @@ void TestScene::OnUpdate(void)
 		{
 			CMover *gameObject = dynamic_cast<CMover*>(gameObjects[i]);
 			if (gameObject && gameObject->GetEnabled())
+			{
+				if (gameObject->tag.compare("Player") == 0)
+					printf("%f\n", gameObject->animation->nowFrame);
 				gameObject->Move();
+			}
 			// Object Update
 		}
 	}

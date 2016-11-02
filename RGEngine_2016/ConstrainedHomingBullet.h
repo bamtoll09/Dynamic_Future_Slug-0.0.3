@@ -1,5 +1,6 @@
 #pragma once
 #include "Bullet.h"
+
 class CConstrainedHomingBullet : public CBullet
 {
 public:

@@ -173,6 +173,9 @@
     <Filter Include="Game\GameObjects\Enemy\Drone">
       <UniqueIdentifier>{fab84718-51eb-4864-b3f2-f3f070731e0b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game\GameObjects\Board">
+      <UniqueIdentifier>{93381bad-d65b-4640-8c20-af2067ff9055}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="RGApplication.cpp">
@@ -303,6 +306,9 @@
     </ClCompile>
     <ClCompile Include="Drone.cpp">
       <Filter>Game\GameObjects\Enemy\Drone</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Game\GameObjects\Board</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -449,6 +455,9 @@
     </ClInclude>
     <ClInclude Include="Drone.h">
       <Filter>Game\GameObjects\Enemy\Drone</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Game\GameObjects\Board</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

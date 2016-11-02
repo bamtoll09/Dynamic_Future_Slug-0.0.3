@@ -2,7 +2,6 @@
 
 CBulletManager::CBulletManager()
 {
-
 }
 
 CBulletManager::~CBulletManager()

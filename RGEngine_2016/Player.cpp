@@ -7,6 +7,7 @@ bool CPlayer::isLeft{ false };
 
 CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f), life(3), hp(100), ap(100), //attribute
 					 jump(false), jumpPower(600.f), // jump
+					 shootTime(0.5f), // attack
 					 cameraSpeed(150.f) //camera_view
 {
 	tag = "Player";
@@ -21,6 +22,13 @@ CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f),
 	InitAnimation("resources/Player/8.png");
 
 	animation->speed = 7.5f;
+
+	auto collider = AttachComponent<Components::BoxCollider>();
+	Math::Vector colliderCenter((float)animation->GetTexture(0)->GetWidth() / 2, (float)animation->GetTexture(0)->GetHeight() / 2);
+	collider->box.SetRect(
+		Math::Vector(0.0f, 0.0f),
+		Math::Vector((float)animation->GetTexture(0)->GetWidth(), (float)animation->GetTexture(0)->GetHeight())
+	);
 }
 
 CPlayer::~CPlayer()
@@ -30,6 +38,7 @@ CPlayer::~CPlayer()
 void CPlayer::MakeBullet(float x, float y, float angle, float angleRate, float speed, float speedRate)
 {
 	auto temp = new CBullet(x, y, angle, angleRate, speed, speedRate);
+	temp->tag = "PBullet";
 	RGApp->GetScene<TestScene>()->PushBackGameObject(temp);
 	BM->bulletList.push_back(temp);
 }
@@ -118,6 +127,8 @@ void CPlayer::Move()
 	if (RGInput->Trigger(DIK_Z))
 	{
 		printf("attack\n");
+
+		MakeBullet(position.x + 300.0f, position.y + 190.0f, 0.0f, 0.0f, -0.04f, 0.0f);
 	}
 	// Attack (unimplement)
 
@@ -207,4 +218,5 @@ void CPlayer::Move()
 	}
 	// Gravity
 	
+	//printf(" %d\n", BM->bulletList.size());
 }

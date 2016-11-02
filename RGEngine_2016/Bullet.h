@@ -4,6 +4,7 @@
 class CBullet : public CMover
 {
 public:
+
 	float Angle;
 	float AngleRate;
 	float Speed;
@@ -14,5 +15,6 @@ public:
 	~CBullet() {}
 
 	virtual void Move();
+	void OnCollision(GameObject *col);
 };
 

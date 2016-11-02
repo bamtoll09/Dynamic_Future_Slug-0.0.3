@@ -4,6 +4,13 @@
 CBoss1::CBoss1() : mineCount(0)
 {
 	InitImage("resources/Boss/Boss.png");
+
+	auto collider = AttachComponent<Components::BoxCollider>();
+	Math::Vector colliderCenter((float)sprite->GetTexture()->GetWidth() / 2, (float)sprite->GetTexture()->GetHeight() / 2);
+	collider->box.SetRect(
+		Math::Vector(0.0f, 0.0f),
+		Math::Vector((float)sprite->GetTexture()->GetWidth(), (float)sprite->GetTexture()->GetHeight())
+	);
 }
 
 CBoss1::~CBoss1()

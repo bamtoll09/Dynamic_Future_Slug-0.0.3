@@ -18,6 +18,9 @@ private:
 	float jumpPower;
 	// jump
 
+	float shootTime;
+	// attack
+
 	float cameraSpeed;
 	// camera_view
 

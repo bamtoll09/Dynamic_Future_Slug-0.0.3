@@ -12,12 +12,12 @@ CNormal::~CNormal()
 
 void CNormal::Move()
 {
-	CEnemy::Move();
-
 	this->position.Transform(-300 * deltaTime(), 0);
 
-	if (this->position.x < 0)
+	if (this->position.x < -sprite->GetTexture()->GetWidth())
 	{
 		this->position.SetVector(RGApp->GetGraphic()->GetScreenWidth(), this->position.y);
 	} // just fun
+
+	CEnemy::Move();
 }

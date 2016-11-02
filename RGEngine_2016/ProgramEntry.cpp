@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	RGApp->Initialize(L"Dynamic Future Slug", 1280, 1024, false);
+	RGApp->Initialize(L"Dynamic Future Slug", 1280, 720, false);
 	RGAsset->Initialize();
 
 	RGApp->ChangeScene(new TestScene());

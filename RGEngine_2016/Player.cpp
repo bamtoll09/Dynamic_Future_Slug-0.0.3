@@ -3,13 +3,12 @@
 #include "GameManager.h"
 #include "TestScene.h"
 
-bool CPlayer::isLeft{ NULL };
+bool CPlayer::isLeft{ false };
 
-CPlayer::CPlayer() : isOnGround(true), isLeft(false), gravity(0.f), speed(250.f), weight(20.f), life(3), hp(100), ap(100), //attribute
+CPlayer::CPlayer() : isOnGround(true), gravity(0.f), speed(250.f), weight(20.f), life(3), hp(100), ap(100), //attribute
 					 jump(false), jumpPower(600.f), // jump
 					 cameraSpeed(150.f) //camera_view
 {
-	isLeft = false;
 	tag = "Player";
 
 	InitAnimation("resources/Player/1.png");

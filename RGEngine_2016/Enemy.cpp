@@ -1,5 +1,6 @@
 #include "Enemy.h"
 #include "BulletManager.h"
+#include "SpawnManager.h"
 #include "TestScene.h"
 
 CEnemy::CEnemy() : ShootTimer(0), PatternTimer(0), MineTimer(0)
@@ -15,4 +16,12 @@ void CEnemy::MakeBullet(float x, float y, float angle, float angleRate, float sp
 	auto temp = new CBullet(x, y, angle, angleRate, speed, speedRate);
 	RGApp->GetScene<TestScene>()->PushBackGameObject(temp);
 	BM->bulletList.push_back(temp);		
+}
+
+void CEnemy::Move()
+{
+	if (hp <= 0)
+	{
+		SpawnMgr->deleteEnemy(this);
+	}
 }

@@ -5,6 +5,9 @@
 class CEnemy : public CMover
 {
 public:
+	int hp;
+
+public:
 	CEnemy();
 	~CEnemy();
 
@@ -22,5 +25,7 @@ public:
 		else if (count == 1)
 			MakeBullet(x, y, angle, angleRate, speed, speedRate);
 	}
+
+	void Move();
 };
 

@@ -78,6 +78,7 @@
     </Filter>
     <Filter Include="Game">
       <UniqueIdentifier>{4a616f8f-acdd-40c5-a4e0-65fba5cf7589}</UniqueIdentifier>
+      <Extensions>cpp;h</Extensions>
     </Filter>
     <Filter Include="Game\Scenes">
       <UniqueIdentifier>{ea60fc0f-c274-4e36-9f9d-60a6c311c5e9}</UniqueIdentifier>
@@ -159,6 +160,18 @@
     </Filter>
     <Filter Include="Game\GameObjects\Grenade">
       <UniqueIdentifier>{8a779f7f-99d7-4133-9f10-7a8d3a4ae698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager\SpawnManager">
+      <UniqueIdentifier>{c47f5ee8-6447-4ecd-8c9b-33071a28f8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Enemy\Normal">
+      <UniqueIdentifier>{fa925a0d-29b8-4ac7-8c12-ed1cf176019a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Enemy\Turret">
+      <UniqueIdentifier>{c6f8e1aa-b09a-4e2f-83ba-25beeae3b630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects\Enemy\Drone">
+      <UniqueIdentifier>{fab84718-51eb-4864-b3f2-f3f070731e0b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -278,6 +291,18 @@
     </ClCompile>
     <ClCompile Include="Grenade.cpp">
       <Filter>Game\GameObjects\Grenade</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>Game\GameObjects\Enemy\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnManager.cpp">
+      <Filter>Game\Manager\SpawnManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Turret.cpp">
+      <Filter>Game\GameObjects\Enemy\Turret</Filter>
+    </ClCompile>
+    <ClCompile Include="Drone.cpp">
+      <Filter>Game\GameObjects\Enemy\Drone</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -413,10 +438,27 @@
     <ClInclude Include="Grenade.h">
       <Filter>Game\GameObjects\Grenade</Filter>
     </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>Game\GameObjects\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnManager.h">
+      <Filter>Game\Manager\SpawnManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Turret.h">
+      <Filter>Game\GameObjects\Enemy\Turret</Filter>
+    </ClInclude>
+    <ClInclude Include="Drone.h">
+      <Filter>Game\GameObjects\Enemy\Drone</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="RGMath.inl">
       <Filter>RGEngine\Framework\Math</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\할일(찬우형).txt">
+      <Filter>Game</Filter>
+    </Text>
   </ItemGroup>
 </Project>

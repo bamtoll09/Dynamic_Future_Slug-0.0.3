@@ -134,12 +134,14 @@
     <ClCompile Include="Bullet.cpp" />
     <ClCompile Include="BulletManager.cpp" />
     <ClCompile Include="ConstrainedHomingBullet.cpp" />
+    <ClCompile Include="Drone.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Grenade.cpp" />
     <ClCompile Include="Mine.cpp" />
     <ClCompile Include="MineExplode.cpp" />
     <ClCompile Include="Mover.cpp" />
+    <ClCompile Include="Normal.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="ProgramEntry.cpp" />
     <ClCompile Include="RGApplication.cpp" />
@@ -166,21 +168,25 @@
     <ClCompile Include="RGScene.cpp" />
     <ClCompile Include="RGTime.cpp" />
     <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SpawnManager.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Turret.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Boss1.h" />
     <ClInclude Include="Bullet.h" />
     <ClInclude Include="BulletManager.h" />
     <ClInclude Include="ConstrainedHomingBullet.h" />
+    <ClInclude Include="Drone.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Grenade.h" />
     <ClInclude Include="Mine.h" />
     <ClInclude Include="MineExplode.h" />
     <ClInclude Include="Mover.h" />
+    <ClInclude Include="Normal.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="RGApplication.h" />
     <ClInclude Include="RGAssetManager.h" />
@@ -212,12 +218,17 @@
     <ClInclude Include="RGTime.h" />
     <ClInclude Include="RGTypes.h" />
     <ClInclude Include="Sound.h" />
+    <ClInclude Include="SpawnManager.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="TestScene.h" />
     <ClInclude Include="Text.h" />
+    <ClInclude Include="Turret.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="RGMath.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\할일(찬우형).txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,3 @@
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\vc140.pdb
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\vc140.idb
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgcomponentanimationrenderer.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgcomponentaudiolistener.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgcomponentaudiosource.obj
@@ -26,9 +24,11 @@ d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\bull
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\constrainedhomingbullet.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\enemy.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\gamemanager.obj
+d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\grenade.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\mine.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\mineexplode.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\mover.obj
+d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\player.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\programentry.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgapplication.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgassetmanager.obj
@@ -37,23 +37,51 @@ d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgas
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgassettexture.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgassettexturemanager.obj
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgcomponent.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\player.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\grenade.obj
+d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\vc140.pdb
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentaudiosource.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentboxcollider.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentcirclecollider.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentcollider.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentspriterenderer.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponenttextrenderer.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgdatastreamfile.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgdatastreamjson.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgdatastreamxml.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rggameobject.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rggraphic.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rginput.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgscene.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgtime.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\sound.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\sprite.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\text.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\constrainedhomingbullet.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\gamemanager.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\mine.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\mineexplode.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\mover.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgapplication.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgassetmanager.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgassetsound.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgassetsoundmanager.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgassettexture.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgassettexturemanager.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponent.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentanimationrenderer.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\rgcomponentaudiolistener.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\bullet.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\bulletmanager.obj
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\vc140.pdb
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\debug\dynamic future slug.ilk
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\debug\dynamic future slug.exe
 d:\카카오톡 받은 파일\dynamic future slug-0.0.3\debug\dynamic future slug.pdb
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\soundmanager.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\soundtest.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\spritemanager.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\spritetest.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\test2scene.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\textmanager.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\texttest.obj
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgengine_2016.idb
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\rgengine_2016.pdb
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.command.1.tlog
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.read.1.tlog
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.write.1.tlog
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.command.1.tlog
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.read.1.tlog
-d:\카카오톡 받은 파일\dynamic future slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.write.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\vc140.idb
+d:\programing\c\dynamic_future_slug-0.0.3\debug\dynamic future slug.pdb
+d:\programing\c\dynamic_future_slug-0.0.3\debug\dynamic future slug.exe
+d:\programing\c\dynamic_future_slug-0.0.3\debug\dynamic future slug.ilk
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.command.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.read.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\cl.write.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.command.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.read.1.tlog
+d:\programing\c\dynamic_future_slug-0.0.3\rgengine_2016\debug\dynamic .938fbef6.tlog\link.write.1.tlog

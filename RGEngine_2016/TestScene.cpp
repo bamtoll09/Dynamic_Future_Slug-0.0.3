@@ -1,5 +1,6 @@
 #include "TestScene.h"
 #include "GameManager.h"
+#include "SpawnManager.h"
 
 TestScene::TestScene(void)
 {
@@ -27,6 +28,14 @@ void TestScene::OnUpdate(void)
 {
 	if (!GM->isPause)
 	{
+		if (RGInput->Trigger(DIK_1))
+		{
+			SpawnMgr->addEnemy(1000, 300);
+		} else if (RGInput->Trigger(DIK_2))
+		{
+			SpawnMgr->popEnemy();
+		}
+
 		auto gameObjects = GetGameObjects();
 
 		for (int i = 0; i < GetGameObjectSize(); ++i)

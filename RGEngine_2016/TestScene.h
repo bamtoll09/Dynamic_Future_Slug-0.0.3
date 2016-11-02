@@ -4,6 +4,7 @@
 #include "Sound.h"
 #include "Sprite.h"
 #include "Text.h"
+#include "Normal.h"
 #include "Boss1.h"
 #include "Player.h"
 #include "Grenade.h"
